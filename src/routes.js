@@ -1,7 +1,7 @@
 import React from 'react';
 import { IndexRoute, Route } from 'react-router';
 
-import { App, Home, About, NotFound, StyleScoping } from './containers';
+import { Home, NotFound } from './containers';
 
 export default ([
   { path: '/',
@@ -9,8 +9,8 @@ export default ([
     sidebar: () => <div>home!</div>,
     main: () => Home()
   },
-  { path: '/about',
-    sidebar: () => <div>About!</div>,
-    main: () => About()
+  { path: '/not-found',
+    sidebar: () => <div>not found!</div>,
+    main: () => NotFound()
   }
 ])
