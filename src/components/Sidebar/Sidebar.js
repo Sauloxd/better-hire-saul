@@ -1,21 +1,30 @@
 import React from 'react';
-import sidebarStyles from './Sidebar.styl';
+import styles from './Sidebar.styl';
 import {
   Route,
   Link
 } from 'react-router-dom';
 import routes from '../../routes.js';
-
+console.log('style', styles)
 const Sidebar = () => (
-  <div style={{
-    padding: '10px',
-    width: '40%',
-    background: '#f0f0f0'
-  }}>
+  <div className={styles.sidebar}>
     <ul style={{ listStyleType: 'none', padding: 0 }}>
-      <li><Link to="/">Home</Link></li>
-    <li><Link to="/bubblegum">Bubblegum</Link></li>
-    <li><Link to="/shoelaces">Shoelaces</Link></li>
+      <li>" Menu</li>
+      <li>.. (up a dir)</li>
+      <li>
+        <div>Me :D<span>/</span></div>
+        <ul>
+          <li><Link to="/who-am-i"> who-am-i.md</Link></li>
+          <li>skills.txt</li>
+          <li>experience.txt</li>
+        </ul>
+      </li>
+      <li>
+        <div>Blog<span>/</span></div>
+        <ul>
+          <li>coming-soon.txt</li>
+        </ul>
+      </li>
     </ul>
     {routes.map((route, index) => (
       <Route
