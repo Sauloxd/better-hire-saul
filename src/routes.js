@@ -1,17 +1,16 @@
 import React from 'react';
 import { IndexRoute, Route } from 'react-router';
+
 import { App, Home, About, NotFound, StyleScoping } from './containers';
 
-export default (
-  <Route path="/" component={App}>
-    { /* main route */ }
-    <IndexRoute component={Home} />
-
-    { /* routes */ }
-    <Route path="about" component={About} />
-    <Route path="styles" component={StyleScoping} />
-
-    { /* catch all route */ }
-    <Route path="*" component={NotFound} />
-  </Route>
-);
+export default ([
+  { path: '/',
+    exact: true,
+    sidebar: () => <div>home!</div>,
+    main: () => Home()
+  },
+  { path: '/about',
+    sidebar: () => <div>About!</div>,
+    main: () => About()
+  }
+])

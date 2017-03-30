@@ -2,6 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import domready from 'domready';
 import RedBox from 'redbox-react';
+import {
+  BrowserRouter as Router,
+  Route,
+  Link
+} from 'react-router-dom'
 
 boot();
 

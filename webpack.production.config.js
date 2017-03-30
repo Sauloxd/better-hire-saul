@@ -7,19 +7,23 @@ export default {
   devtool: 'source-map',
   entry: ['./src/index'],
   output: {
-    path: path.join(__dirname, 'dist'),
+    path: path.join(__dirname, 'dist/assets'),
+    publicPath: '/assets',
     filename: 'bundle.js'
   },
   module: {
     loaders: [{
       test: /\.js$/,
-      loader: 'babel',
+      loader: 'babel-loader',
       include: path.join(__dirname, 'src')
     }, {
       test: /\.styl$/,
       /* eslint-disable max-len */
       loader: ExtractTextPlugin.extract({fallback: 'style-loader', use: 'css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!autoprefixer-loader!stylus-loader'})
       /* eslint-enable max-len */
+    }, {
+      test: /\.jade$/,
+      loader: 'jade-react-loader'
     }, {
       test: /\.woff$/,
       loader: 'file-loader?name=font/[name].[ext]?[hash]'
@@ -28,7 +32,7 @@ export default {
       loader: 'file-loader?name=images/[name].[ext]?[hash]'
     }, {
       test: /\.md$/,
-      loader: 'html!markdown'
+      loader: 'html-loader!markdown-loader'
     }]
   },
   plugins: [
