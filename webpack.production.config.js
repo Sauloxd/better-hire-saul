@@ -7,8 +7,8 @@ export default {
   devtool: 'source-map',
   entry: ['./src/index'],
   output: {
-    path: path.join(__dirname, 'dist/assets'),
-    publicPath: '/assets',
+    path: path.join(__dirname, 'dist'),
+    publicPath: '/',
     filename: 'bundle.js'
   },
   module: {
