@@ -1,0 +1,18 @@
+get-grey(s = false)
+   if s == 300
+    rgba(#D3D2D3)
+   else if s == 400
+    rgba(#444444)
+   else if s == 500
+    rgba(#303030)
+
+bg-grey(s = false)
+  background-color:get-grey(s)
+
+text-grey(s = false)
+  color:get-grey(s)
+  &:hover
+    color:get-grey(s)
+
+border-grey(s = false)
+  border-color:get-grey(s)

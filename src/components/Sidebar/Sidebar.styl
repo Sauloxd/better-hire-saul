@@ -1,0 +1,47 @@
+@import '../../theme/base'
+
+$caret-size = $font-size/2.5
+$letter-spacing = $font-size * 0.75
+.sidebar
+  min-width: 200px
+  border-right: 1px dashed white
+  padding: $letter-spacing
+
+.slash
+  color: $red-color
+  vertical-align: text-top
+
+.sidebar__file
+  padding-left: $letter-spacing + $caret-size
+
+.sidebar__dir
+  color: $blue-color
+
+.sidebar__dirOpenable
+  &::before
+    content: ''
+    display: inline-block
+    width: 0
+    height: 0
+    border-bottom: $caret-size solid transparent
+    border-top: $caret-size solid transparent
+    border-left: $caret-size solid currentColor
+    font-size: 0
+    line-height: 0
+    margin-right: $letter-spacing
+
+.sidebar__dir__sub
+  padding-left: $letter-spacing + $caret-size
+
+.sidebar__details
+  color: $purple-color
+
+.sidebar__divisor
+  margin: $font-size 0
+
+.sidebar__help
+  color: $green-color
+
+.highlight
+  background-color: $light-dark-color
+  display: block
