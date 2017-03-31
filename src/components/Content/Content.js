@@ -8,7 +8,7 @@ import {
 import routes from '../../routes.js';
 
 const Content = () => (
-  <div style={{ flex: 1, padding: '10px' }}>
+  <div style={{ flex: 1, padding: '12px', overflowY: 'scroll' }}>
   	<Route exact path="/" render={() => <Redirect to="/me/who-am-i" />} />
     {routes.map((route, index) => (
     <Route
