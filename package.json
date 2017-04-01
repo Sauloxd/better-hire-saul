@@ -7,6 +7,7 @@
   "author": "Sauloxd <saulotoshi@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "start": "node app.js",
     "serve": "gulp serve",
     "build": "gulp build"
   },
@@ -39,17 +40,18 @@
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.1",
     "webpack": "^2.3.2",
-    "webpack-dev-server": "^2.4.2"
+    "webpack-dev-server": "^2.4.2",
+		"domready": "^1.0.8",
+		"extract-text-webpack-plugin": "^2.1.0",
+		"history": "^4.6.1",
+		"html-webpack-plugin": "^2.28.0",
+		"react": "^15.4.2",
+		"react-dom": "^15.4.2",
+		"react-router": "^4.0.0",
+		"react-router-dom": "^4.0.0",
+		"redbox-react": "^1.2.3"
   },
   "dependencies": {
-    "domready": "^1.0.8",
-    "extract-text-webpack-plugin": "^2.1.0",
-    "history": "^4.6.1",
-    "html-webpack-plugin": "^2.28.0",
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2",
-    "react-router": "^4.0.0",
-    "react-router-dom": "^4.0.0",
-    "redbox-react": "^1.2.3"
+		"express": "^4.15.2"
   }
 }
