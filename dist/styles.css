@@ -1,13 +1,8 @@
 .Content__sidebar__container___qrIYX {
   height: 100%;
 }
-
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvY29udGFpbmVycy9Ib21lL0hvbWUuc3R5bCJ9 */.NotFound__notFound___GPyTH {
-  margin: 100px;
-  width: 650px;
-  height: 300px;
-  background: url(/images/404.png?953dd785698f1ba1bbb1c42cfafa850b) center no-repeat;
-  background-size: auto 100%;
+.Content__active___2QT03 {
+  z-index: 1;
 }
 .whoAmI__lineIndex___2SHsc span {
   color: #444;
@@ -37,10 +32,69 @@
 .whoAmI__highlight___qAMsU {
   background-color: #444;
 }
+.Skills__lineIndex___1LkFb span {
+  color: #444;
+  margin-right: 12px;
+}
+.Skills__lineIndex___1LkFb li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.Skills__mdh1___2nAW1 {
+  color: #f4415a;
+}
+.Skills__mdh2___21PFL {
+  color: #3d9bfe;
+}
+.Skills__mdh4___2Obz1 {
+  color: #6fcd60;
+}
+.Skills__tab1___2GleV {
+  padding-left: 24px;
+}
+.Skills__highlight___GGWAo {
+  background-color: #444;
+}
+.Experience__lineIndex___1ZIae span {
+  color: #444;
+  margin-right: 12px;
+}
+.Experience__lineIndex___1ZIae li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.Experience__mdh1___1swTL {
+  color: #f4415a;
+}
+.Experience__mdh2___1uDo1 {
+  color: #3d9bfe;
+}
+.Experience__mdh4___1nU6Q {
+  color: #6fcd60;
+}
+.Experience__tab1___2cfwf {
+  padding-left: 24px;
+}
+.Experience__highlight___LtKa8 {
+  background-color: #444;
+}
 .Sidebar__sidebar___4ejN8 {
   min-width: 200px;
   border-right: 1px dashed #fff;
   padding: 12px;
+}
+a {
+  cursor: pointer;
 }
 .Sidebar__slash___1_jpZ {
   color: #f4415a;
@@ -79,6 +133,9 @@
 .Sidebar__highlight___3VNoN {
   background-color: #444;
   display: block;
+}
+.Sidebar__sidebar--active___2zPWW {
+  z-index: 1;
 }
 @font-face {
   font-family: monospace;

@@ -1,5 +1,5 @@
-import Home from './Home/Home';
-import NotFound from './NotFound/NotFound';
 import WhoAmI from './WhoAmI/WhoAmI';
+import Skills from './Skills/Skills';
+import Experience from './Experience/Experience';
 
-export { Home, NotFound, WhoAmI };
+export { WhoAmI, Skills, Experience };
