@@ -93,6 +93,9 @@
   border-right: 1px dashed #fff;
   padding: 12px;
 }
+a {
+  cursor: pointer;
+}
 .Sidebar__slash___1_jpZ {
   color: #f4415a;
   vertical-align: text-top;
