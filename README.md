@@ -23,8 +23,8 @@ Well, It's only a static page, so don't expect complex backend frameworks, desig
 - [Pug2]() - HTML preprocessor, you ain't gonna see html in this project
   (jk, our index will be .html)
 - [Stylus]() - CSS preprocessor, since CSS, well, sucks
-- [React]() - F*ck, why not
-- [Webpack 2]() - Yeah... ok
+- [Webpack]() - For bundling our assets, and preprocessing files
+- [React]() - Cool Kids stuff
 
 ##Design
 - [Sketch]() - All Sketch Artwork will be placed in an orphan branch "design"
@@ -34,4 +34,5 @@ Architecture
 
 Features
 --------
-
+- Controlling the page through keyboard inputs (j up, k down etc)
+- Multipage open
