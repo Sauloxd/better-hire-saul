@@ -1,0 +1,299 @@
+.Content__sidebar__container___qrIYX {
+  height: 100%;
+}
+.Content__active___2QT03 {
+  z-index: 1;
+}
+.whoAmI__lineIndex___2SHsc span {
+  color: #444;
+  margin-right: 12px;
+}
+.whoAmI__lineIndex___2SHsc li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.whoAmI__mdh1___3A13e {
+  color: #f4415a;
+}
+.whoAmI__mdh2___1hjkI {
+  color: #3d9bfe;
+}
+.whoAmI__mdh4___fn_Yh {
+  color: #6fcd60;
+}
+.whoAmI__tab1___1-t6b {
+  padding-left: 24px;
+}
+.whoAmI__highlight___qAMsU {
+  background-color: #444;
+}
+.Skills__lineIndex___1LkFb span {
+  color: #444;
+  margin-right: 12px;
+}
+.Skills__lineIndex___1LkFb li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.Skills__mdh1___2nAW1 {
+  color: #f4415a;
+}
+.Skills__mdh2___21PFL {
+  color: #3d9bfe;
+}
+.Skills__mdh4___2Obz1 {
+  color: #6fcd60;
+}
+.Skills__tab1___2GleV {
+  padding-left: 24px;
+}
+.Skills__highlight___GGWAo {
+  background-color: #444;
+}
+.Experience__lineIndex___1ZIae span {
+  color: #444;
+  margin-right: 12px;
+}
+.Experience__lineIndex___1ZIae li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.Experience__mdh1___1swTL {
+  color: #f4415a;
+}
+.Experience__mdh2___1uDo1 {
+  color: #3d9bfe;
+}
+.Experience__mdh4___1nU6Q {
+  color: #6fcd60;
+}
+.Experience__tab1___2cfwf {
+  padding-left: 24px;
+}
+.Experience__highlight___LtKa8 {
+  background-color: #444;
+}
+.Sidebar__sidebar___4ejN8 {
+  min-width: 200px;
+  border-right: 1px dashed #fff;
+  padding: 12px;
+}
+.Sidebar__slash___1_jpZ {
+  color: #f4415a;
+  vertical-align: text-top;
+}
+.Sidebar__sidebar__file___2_VV7 {
+  padding-left: 18.4px;
+}
+.Sidebar__sidebar__dir___FflIn {
+  color: #3d9bfe;
+}
+.Sidebar__sidebar__dirOpenable___qC4Fa::before {
+  content: '';
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-bottom: 6.4px solid transparent;
+  border-top: 6.4px solid transparent;
+  border-left: 6.4px solid currentColor;
+  font-size: 0;
+  line-height: 0;
+  margin-right: 12px;
+}
+.Sidebar__sidebar__dir__sub___2lnYn {
+  padding-left: 18.4px;
+}
+.Sidebar__sidebar__details___1TEDz {
+  color: #a679ff;
+}
+.Sidebar__sidebar__divisor___2JKLu {
+  margin: 16px 0;
+}
+.Sidebar__sidebar__help___25mGS {
+  color: #6fcd60;
+}
+.Sidebar__highlight___3VNoN {
+  background-color: #444;
+  display: block;
+}
+.Sidebar__sidebar--active___2zPWW {
+  z-index: 1;
+}
+@font-face {
+  font-family: monospace;
+  src: local('Fira Mono');
+}
+@font-face {
+  font-family: 'Fira Sans';
+  src: local('Fira Sans Hair'), url(/font/FiraSans-Hair.woff?1ebbe78b20755c4b6168051faa72fe27) format('woff');
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Fira Sans';
+  src: local('Fira Sans Hair Italic'), url(/font/FiraSans-HairItalic.woff?73a3b963db4802956cdb337555397540) format('woff');
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Fira Sans';
+  src: local('Fira Sans UltraLight'), url(/font/FiraSans-UltraLight.woff?3f956e0089da4ef85a8ccf7e334aa9f8) format('woff');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Fira Sans';
+  src: local('Fira Sans UltraLight Italic'), url(/font/FiraSans-UltraLightItalic.woff?119e1bbcab7a10cd1e2d7588efc95097) format('woff');
+  font-weight: 200;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Fira Sans';
+  src: local('Fira Sans Light'), url(/font/FiraSans-Light.woff?29430787e85c5dc0a9e8a164fab4a5bf) format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Fira Sans';
+  src: local('Fira Sans Light Italic'), url(/font/FiraSans-LightItalic.woff?860c08c400da08cf7a44142c0866aafe) format('woff');
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Fira Sans';
+  src: local('Fira Sans Regular'), url(/font/FiraSans-Regular.woff?200d5e7cc951bbffda6945f883e3123e) format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Fira Sans';
+  src: local('Fira Sans Regular Italic'), url(/font/FiraSans-Italic.woff?9a74216339d8a17b8498820e5245d4c0) format('woff');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Fira Sans';
+  src: local('Fira Sans Medium'), url(/font/FiraSans-Medium.woff?181fa5a2e6e9b5730eb6fe46c30b5228) format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Fira Sans';
+  src: local('Fira Sans Medium Italic'), url(/font/FiraSans-MediumItalic.woff?965651ed4d6b21593be02b7b27c41a4a) format('woff');
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Fira Sans';
+  src: local('Fira Sans SemiBold'), url(/font/FiraSans-SemiBold.woff?defc482e83c81d8844cd30c0f5882129) format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Fira Sans';
+  src: local('Fira Sans SemiBold Italic'), url(/font/FiraSans-SemiBoldItalic.woff?561d7ca60c5b2f9e67bf938c1f0b1c41) format('woff');
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Fira Sans';
+  src: local('Fira Sans Bold'), url(/font/FiraSans-Bold.woff?bf0aaa9c4657f053f06bef1e50208e9f) format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Fira Sans';
+  src: local('Fira Sans Bold Italic'), url(/font/FiraSans-BoldItalic.woff?215cae1e77b2c4818f7e058850d3265b) format('woff');
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Fira Sans';
+  src: local('Fira Sans ExtraBold'), url(/font/FiraSans-ExtraBold.woff?febbf576b10607917495a54416197ab2) format('woff');
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Fira Sans';
+  src: local('Fira Sans ExtraBold Italic'), url(/font/FiraSans-ExtraBoldItalic.woff?ec49252c8f3b7d570fa0ce856380081e) format('woff');
+  font-weight: 800;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Fira Sans';
+  src: local('Fira Sans Heavy'), url(/font/FiraSans-Heavy.woff?da342f62c520818b80be7cb117a9d1d1) format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Fira Sans';
+  src: local('Fira Sans Heavy Italic'), url(/font/FiraSans-HeavyItalic.woff?16b2c19cad569508bf53901b084d4738) format('woff');
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Fira Mono';
+  src: local('Fira Mono'), url(/font/FiraMono-Regular.woff?f25e0dfc5b508f34f63724d7ff607384) format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Fira Mono';
+  src: local('Fira Mono Bold'), url(/font/FiraMono-Bold.woff?ea0cfb9b88c1398f840eae350e12d924) format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  font-family: 'Fira mono', arial;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+  background-color: #303030;
+  margin: 0;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+h1,
+h2 {
+  margin-bottom: 20px;
+}
+h3,
+h4,
+h5,
+h6 {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/*# sourceMappingURL=styles.css.map*/
