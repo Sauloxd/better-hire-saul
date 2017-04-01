@@ -24,6 +24,7 @@ class RootComponent extends React.Component {
 		}
 	};
 	addNewBuffer(buffer) {
+		console.log('setting buffer: ', buffer)
 		if(this.state.buffers.indexOf(buffer) < 0) {
 			this.state.buffers.push(buffer)
 			this.state.active = this.state.buffers.length - 1 //Last index
@@ -41,7 +42,7 @@ class RootComponent extends React.Component {
 					<div style={overlayStyle}></div>
           <Sidebar activeIndex={this.state.active} addNewBuffer={this.addNewBuffer.bind(this)} />
 					{this.state.buffers.map((file, index)=>{
-						return <Content key={file} buffer={file} active={ index === this.state.active }/>
+						return <Content key={file} buffer={file} addNewBuffer={this.addNewBuffer.bind(this)} active={ index === this.state.active }/>
 					})}
         </div>
       </Router>
