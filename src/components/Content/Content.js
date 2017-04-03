@@ -7,7 +7,7 @@ import {
 import {WhoAmI, Skills, Experience} from '../../containers'
 
 const Content = (props) => (
-  <div className={(props.active) ? contentStyles.active : null} style={{ flex: 1, padding: '12px', overflowY: 'scroll' }}>
+  <div onClick={props.addNewBuffer.bind(null, props.buffer)} className={(props.active) ? contentStyles.active : null} style={{ flex: 1, padding: '12px', overflowY: 'scroll' }}>
 		{ (()=>{
 			if(props.buffer === 'who-am-i') {
 				return	WhoAmI()

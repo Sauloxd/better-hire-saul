@@ -15,19 +15,16 @@ Technologies
 ------------
 Well, It's only a static page, so don't expect complex backend frameworks, design-patterns, or integration with other platforms (yet).
 
-##Backend
+## Backend
 - [ExpressJS](https://expressjs.com/) - Want an easier backend server?
 
-##Frontend
+## Frontend
 - [NPM]() - Controlling our dependencies
 - [Pug2]() - HTML preprocessor, you ain't gonna see html in this project
   (jk, our index will be .html)
 - [Stylus]() - CSS preprocessor, since CSS, well, sucks
 - [Webpack]() - For bundling our assets, and preprocessing files
 - [React]() - Cool Kids stuff
-
-##Design
-- [Sketch]() - All Sketch Artwork will be placed in an orphan branch "design"
 
 Architecture
 ------------
